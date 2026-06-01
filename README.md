@@ -1,10 +1,10 @@
 
-```markdown
-# RAT-Tools
+
+ RAT-Tools
 
 Remote Administration Tool - Command & Control Center for Educational Purposes
 
-## Features
+ Features
 
 - Remote command execution on target systems
 - Screenshot capture and retrieval
@@ -16,15 +16,15 @@ Remote Administration Tool - Command & Control Center for Educational Purposes
 - Automatic screenshot capture
 - Registry persistence mechanism
 
-## Requirements
+ Requirements
 
 - Python 3.11 or higher
 - Windows 10/11 (client)
 - Discord account (optional)
 
-## Installation
+ Installation
 
-### Server Setup
+ Server Setup
 
 ```bash
 git clone https://github.com/ahmouy/RAT-Tools.git
