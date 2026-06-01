@@ -1,0 +1,99 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node modules (CRITICAL!)
+git ls-files -s | sort -k4 -rn | head -20
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build files
+build/
+dist/
+*.spec
+*.exe
+*.msi
+*.deb
+*.dmg
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+
+# Uploads (jangan push screenshots!)
+server/uploads/
+server/uploads/screenshots/
+server/uploads/webcam/
+client/uploads/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Database backups
+*.bak
+*.backup
+*.old
+
+# Client build
+client/build/
+client/dist/
+client/__pycache__/
+client/*.spec
+client/WindowsUpdate.exe
+
+# Server build
+server/__pycache__/
+server/*.spec
+
+# Desktop app build
+desktop_app.spec
+RAT_Tools.exe
+PemerintahAnjing_RAT.exe
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.p12
